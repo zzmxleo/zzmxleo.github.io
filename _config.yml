@@ -1,1 +1,3 @@
 timezone: Asia/Shanghai
+pygments: true
+markdown: rdiscount
