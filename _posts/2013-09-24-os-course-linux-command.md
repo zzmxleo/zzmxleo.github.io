@@ -52,3 +52,33 @@ title: 操作系统实验——Linux常用命令
 	    $ sudo chown user2 /home/dir
 	    $ touch /home/dir/demo
 	    $ rm /home/dir/demo
+
+6.  插入u盘, 在 /mnt 下建立一个名叫 USB 的文件夹, 然后将u盘挂载到 /mnt/USB 下, 在此目录下创建一个 temp.txt 文件, 然后卸载 u 盘
+
+	    $ sudo mkdir /mnt/USB
+	    $ sudo mount /dev/sdb1 /mnt/USB
+	    $ touch /mnt/USB/temp.txt
+	    $ sudo umount /dev/sdb1
+
+7.  查看网络适配器的网络设置, 将 dhcp 动态 IP 的设置方式改为 static 静态 IP 的设置方式; 查看当前系统服务端口的监听状态
+	
+	    $ ifconfig
+
+	    # configure interface to use static address assignment, and file settings are as follow
+	    $ sudo vim /etc/network/interfaces
+	    $ sudo /etc/init.d/networking restart
+	    
+	> auto eth0
+	>
+	> iface eth0 inet static
+	>
+	> address 192.168.1.100
+	>
+	> netmask 255.255.255.0
+	>
+	> gateway 192.168.1.1
+	>
+	> dns-nameservers 8.8.8.8  8.8.4.4
+
+	    $ netstat -tulp
+	    $ netstat -ap
