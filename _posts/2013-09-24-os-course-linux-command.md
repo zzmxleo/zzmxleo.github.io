@@ -47,7 +47,7 @@ title: 操作系统实验——Linux常用命令
 	    $ useradd -g admin user3
 	    $ passwd user3
 	    $ su user3
-	    $ sudo mkdir /home/dir
+	    $ sudo mkdir /home/dir	# maybe need to add users to sudo group in order to access sudo previlege
 	    $ su user2
 	    $ sudo chown user2 /home/dir
 	    $ touch /home/dir/demo
