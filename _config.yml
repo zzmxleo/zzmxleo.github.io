@@ -1,3 +1,9 @@
 timezone: Asia/Shanghai
+encoding: UTF-8
+
+future: false
+lsi: false
 pygments: true
 markdown: rdiscount
+
+permalink: /post/:year:month:day/:title.html
