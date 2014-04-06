@@ -62,9 +62,8 @@ Queue 表示队列，用于存储待操作的元素（比如阻塞队列 Blockin
 | Remove  | remove()         | poll()                |
 | Examine | element()        | peek()                |
 
-最常见的三种 Queue 是 FIFO queue, LIFO queue, Priority queue, 它们根据不同的规则对元素进行了排列。
 
-因为 null 是 poll 方法的一个特殊返回值，所以建议不要向 Queue 中添加 null 值。
+最常见的三种 Queue 是 FIFO queue, LIFO queue, Priority queue, 它们根据不同的规则对元素进行了排列。
 
 ### Deque 接口
 
