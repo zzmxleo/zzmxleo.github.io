@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '交通灯信号管理系统'
+title: '[黑马程序员]交通灯信号管理系统'
 date: 2014-04-07 11:02
 comments: true
 categories: 

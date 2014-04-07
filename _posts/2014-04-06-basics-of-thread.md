@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '线程的基本操作'
+title: '[黑马程序员]线程的基本操作'
 date: 2014-04-06 16:01
 comments: true
 categories: [java]

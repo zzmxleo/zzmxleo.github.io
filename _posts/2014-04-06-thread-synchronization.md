@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '线程同步'
+title: '[黑马程序员]线程同步'
 date: 2014-04-06 20:20
 comments: true
 categories: 
