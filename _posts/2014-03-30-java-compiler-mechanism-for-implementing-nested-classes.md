@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[黑马程序员]Java 编译器实现嵌套类的机制'
+title: 'Java 编译器实现嵌套类的机制'
 ---
 Java 允许将一个类定义在另一个类之中，这样的类称为嵌套类（nested class），包含嵌套类的类称为外部类（outer class）。其中，嵌套类又可进一步分为静态内部类（static nested class）、内部类（inner class）和局部类（local class）。嵌套类同泛型一样，只是一种编译期的机制，JVM 并不区分嵌套类和普通的类，因此为了进一步了解嵌套类，需要知道编译器都做了哪些事。
 

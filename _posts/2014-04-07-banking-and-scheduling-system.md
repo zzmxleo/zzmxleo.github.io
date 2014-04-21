@@ -1,9 +1,10 @@
 ---
 layout: post
-title: '[黑马程序员]银行业务调度系统'
+title: '银行业务调度系统'
 date: 2014-04-07 11:17
 comments: true
 categories: 
+published: false
 ---
 模拟实现银行业务调度系统逻辑，具体需求如下：
 

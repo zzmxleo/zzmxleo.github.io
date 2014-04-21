@@ -1,9 +1,10 @@
 ---
 layout: post
-title: '[黑马程序员]交通灯信号管理系统'
+title: '交通灯信号管理系统'
 date: 2014-04-07 11:02
 comments: true
 categories: 
+published: false
 ---
 模拟实现十字路口的交通灯管理系统逻辑，具体需求如下：
 

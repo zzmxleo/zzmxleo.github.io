@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[黑马程序员]网络编程基础'
+title: '网络编程基础'
 date: 2014-04-07 14:13
 comments: true
 categories: 
