@@ -11,7 +11,7 @@
     
         <script>
         
-            var errorDiv = document.querySelector('#error');
+            var errorDiv = document.getElementById('error');
         
             try {
                 
@@ -28,6 +28,8 @@
                 }
 
                 var result = new Blob([byteArr], {type: mimeType});
+                
+                undefined.bla();
                 
                 errorDiv.innerText = 'no error';
             
