@@ -15,8 +15,7 @@
         
             try {
                 
-                new Blob();
-                errorDiv.innerText = 'no error';
+                errorDiv.innerText = Blob.toString();
             
             } catch (e) {
                 errorDiv.innerText = e.toString();
